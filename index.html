@@ -2174,12 +2174,12 @@
       
           const GameWrapper = ({ children }) => {
               // All games use a centered layout.
-              return <div className="w-full flex items-center justify-center p-4">{children}</div>;
+              return <div className="w-full flex-grow flex items-center justify-center p-4">{children}</div>;
           };
       
       
           return (
-              <main className="h-screen w-full flex flex-col bg-gradient-to-br from-indigo-200 via-sky-200 to-purple-200">
+              <main className="min-h-screen w-full flex flex-col bg-gradient-to-br from-indigo-200 via-sky-200 to-purple-200">
                    <GameWrapper>{renderGame()}</GameWrapper>
               </main>
           );
