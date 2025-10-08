@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useCallback, useEffect, createContext, useContext } from 'react';
-import { CheckCircle, XCircle, RefreshCw, Pencil, Home, PaintBrush, TrendingUp, ArrowDownUp, Repeat, Plus, ClipboardList, Hash, BookOpen, Blocks, Shuffle, Calculator, Backspace } from './components/Icons';
+import { CheckCircle, XCircle, RefreshCw, Pencil, Home, PaintBrush, TrendingUp, ArrowDownUp, Repeat, Plus, ClipboardList, Hash, BookOpen, Blocks, Shuffle, Calculator, Backspace } from './components/Icons.tsx';
 
 // --- VERİ MODELLERİ VE OLUŞTURUCULAR ---
 
